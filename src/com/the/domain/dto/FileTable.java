@@ -5,7 +5,7 @@ public class FileTable {
 	private String filename;
 	private long filesize;
 	private String fileurl;
-	private long bno;
+	private long bno; //해당하는 게시글의 pk 값
 	
 	public long getFno() {
 		return fno;

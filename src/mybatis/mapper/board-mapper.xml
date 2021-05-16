@@ -11,4 +11,20 @@
   	INSERT INTO file_board 
   		VALUES (#{no}, #{subject}, #{content})
   </insert>
-</mapper>
+  
+  <select id="listAll" resultType="com.the.domain.dto.FileBoard">
+  	SELECT * FROM file_board ORDER BY no desc
+  </select>
+  
+  <select id="detail" resultType="com.the.domain.dto.FileBoard">
+  	SELECT * FROM file_board WHERE no = #{no}
+  </select>
+  
+  <delete id="delete">
+  	DELETE FROM file_board WHERE no = #{no}
+  </delete>
+  
+    <delete id="deleteById">
+  	DELETE FROM file_board WHERE no = #{no}
+  </delete>
+  </mapper>
