@@ -6,3 +6,5 @@
 <a href="https://www.notion.so/0522-463e3033027842168718a09235198df4">description</a><br><br>
 0523: 페이징 sol2<br>
 <a href="https://www.notion.so/0523-8963937fb8cd46d4967a75460bed62b9">description</a><br><br>
+0524: 프로젝트 복구<br>
+0523에 올릴 프로젝트를 deleted on disk 해버렸는데, eclipse의 메타데이터에서 history를 보면 파일을 확인할 수 있다.
